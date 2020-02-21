@@ -1,6 +1,6 @@
-def roll_call_dwarves(name) # code an argument here
+def roll_call_dwarves(#{name}) # code an argument here
   # Your code here
- primary_colors.each do |color|
+ roll_call_dwarves.each do |name|
   puts #{name}
 end
 
