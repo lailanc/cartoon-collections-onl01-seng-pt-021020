@@ -3,6 +3,7 @@ planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 call_screams = ["bo", "bam", "boom", "bazam", "powzer"]
 
 def roll_call_dwarves(array)
+  #define your code here
   i = 0 
   while i < array.length 
     puts "#{i + 1}. #{array[i]}"
@@ -15,6 +16,7 @@ roll_call_dwarves(dwarves)
 
 
 def summon_captain_planet(array)
+    #define your code here
   nu_array = []
   i = 0 
   while i < array.length 
@@ -28,6 +30,7 @@ summon_captain_planet(planeteer_calls)
 
 
 def long_planeteer_calls(array) 
+    #define your code here
   i = 0 
   if  array.any? {|i| i.length > 4}
     return true
@@ -46,6 +49,7 @@ snacks = ["crackers", "gouda", "thyme"]
 
 # This is the learn.co method that wants the cheese array inside the actual method
 def find_the_cheese(array)
+    #define your code here
   cheese_types = ["cheddar", "gouda", "camembert"]
     array.find do |type|
     cheese_types.include?(type)
